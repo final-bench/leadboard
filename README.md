@@ -53,17 +53,24 @@ Each board carries two letters, for example `[T/P2]`.
 
 ## Boards
 
-21 boards across 7 disciplines, 18,382 held-out compounds.
+46 boards across 14 of 16 disciplines, 57,698 held-out compounds. 96 boards are planned.
 
 | Discipline | Boards |
 |---|---|
-| Absorption | Solubility |
+| Absorption | Solubility, LogP, Caco2 |
+| Distribution | PPB, Vdss |
 | Metabolism | CYP3A4, CYP2D6, CYP2C9 |
-| Toxicity | hERG |
-| Potency | AChE, MAOB, COX2 |
-| Kinase | EGFR, JAK2, PI3Ka, FLT3, VEGFR2, CDK2, HER2, ABL1, BRAF, KIT, ALK |
-| Cell and phenotype | JUMP Cell Painting morphology, 115,689 compounds, 16 profile axes |
-| Clinical | Post-marketing withdrawal, year-matched controls |
+| Excretion | HalfLife |
+| Toxicity | hERG, LD50 |
+| Potency | AChE, MAOB, COX2, Nav17 |
+| Epigenetics | BRD4, HDAC1 |
+| Nuclear receptors | ERalpha, AR |
+| Proteases | BACE1, Thrombin, FactorXa |
+| Kinase & Selectivity | EGFR, JAK2, PI3Ka, FLT3, VEGFR2, CDK2, HER2, ABL1, BRAF, KIT, ALK, Selectivity |
+| Receptors & GPCR | D2, HT2A, MuOpioid, KappaOpioid, A2A, CB1 |
+| Cell & Phenomics | Phenotype |
+| Anti-infective & whole-cell | Malaria, SEpidermidis, MTB, SAureus |
+| Clinical in-silico | Withdrawal |
 
 ### A note on the withdrawal board
 
